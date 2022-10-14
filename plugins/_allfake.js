@@ -45,19 +45,19 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'Private Bot by Fangz',
+					description: 'Private Bot by KhrlMstfa',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(urls)).buffer(),
-					sourceUrl: "https://github.com/Fangzbotz2007",					
+					sourceUrl: "https://github.com/RullDev",					
 				}
 			}
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://github.com/Fangzbotz2007",
+            mediaUrl: "https://github.com/RullDev",
             mediaType: "VIDEO",
-            description: "https://github.com/Fangzbotz2007", 
-            title: 'Private Bot by Fangz',
+            description: "https://github.com/RullDev", 
+            title: 'Private Bot by KhrlMstfa',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -65,10 +65,10 @@ handler.all = async function (m) {
     } }
 global.fakefb = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://github.com/Fangzbotz2007",
+            mediaUrl: "https://github.com/RullDev",
             mediaType: "VIDEO",
-            description: "https://github.com/Fangzbotz2007", 
-            title: 'Private Bot by Fangz',
+            description: "https://github.com/RullDev", 
+            title: 'Private Bot by KrlMstfa',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -112,7 +112,7 @@ global.fakefb = {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat  ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "caption":"by : Fangz Ganteng","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "caption":"by : RullNeedAyg","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                   global.fliveLoc2 = {
@@ -120,7 +120,7 @@ global.fakefb = {
             { fromMe: false,
             participant: `0@s.whatsapp.net`, ...(m.chat ? 
             { remoteJid: "status@broadcast" } : {}) },
-            message: { "liveLocationMessage": { "title": "Fangz Ganteng","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+            message: { "liveLocationMessage": { "title": "RullNeedAyg","h": wm, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
            }
                
                    global.ftoko = {
@@ -136,7 +136,7 @@ global.fakefb = {
                                "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
                            },
                            "title": wm, //Kasih namalu 
-                           "description": "Private Bot by Fangz", 
+                           "description": "Private Bot by KhrlMstfa", 
                            "currencyCode": "USD",
                            "priceAmount1000": "20000000",
                            "retailerId": "Ghost",
@@ -169,7 +169,7 @@ global.fakefb = {
                "groupInviteMessage": {
                    "groupJid": "17608914335-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Friends FANGZ BOT", 
+                   "groupName": "Friends Rull BOT", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
