@@ -21,18 +21,18 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-*💌 Nama* : Fangz
-*✉️ Nama RL* : FangzBOT
+*💌 Nama* : Rull
+*✉️ Nama RL* : KhrlMstfa
 *♂️ Gender* : Laki - laki
 *🕋 Agama* : Islam
-*⏰ Tanggal lahir* : 25 oktober 2007
+*⏰ Tanggal lahir* : 21 oktober 2007
 *🎨 Umur* : 15
 *🧮 Kelas* : 9
-*🧩 Hobby* : Nonton henta*, main game, Recode script
-*💬 Sifat* : Baik, hode, softboy, tydack ramah, g*y
-*🗺️ Tinggal* : Indonesia, jawa, bogor
-*❤️ Suka* : warnah pink & hitam, trap, waifu wangy, kucing
-*💔 Benci* : anak alay, autis, anak epep, sok asik
+*🧩 Hobby* : Nonton anime, main game, Recode script
+*💬 Sifat* : Baik, hode, softboy, tydack ramah, sopan:v
+*🗺️ Tinggal* : Indonesia, jawatimur, trenggalek
+*❤️ Suka* : warna biru & hitam, trap, waifu wangy, kucing
+*💔 Benci* : anak alay, autis, anak epep, sok asik, caper
 
 *- - sᴋɪʟʟs: - -* 
 > JavaScript [70.7%]
@@ -48,8 +48,8 @@ let teksbio = `${htki} *BIODATA* ${htka}
 🐈 *Github:* ${sgh}
 🥏 *Whatsapp* wa.me/${nomorown}
 🌐 *Discord:* Soon
-🌏 *Website:* https://fangzbot.websites.co.in/
-🎶 *Tiktok:* tiktok.com/@fangzjb
+🌏 *Website:* https://bit.ly/3eggcxd/
+🎶 *Tiktok:* tiktok.com/@mastopp36
 
 `
   let teks = ' '
