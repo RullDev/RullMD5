@@ -6,7 +6,7 @@ Hay👋‹, ingin melanjutkan pembayaran?
 💌 *Pembayaran*
 💳 Via: Gopay
 📞 Nomor: 088215689772
-👤 A/n: Fangz
+👤 A/n: KhrlMstfa
 📦 Mitra: Fangz BOT
 💰 Metode pembayaran: Online ( ~Cod~ )
 
