@@ -284,8 +284,8 @@ let tek = `*✧${ucapan()} ${conn.getName(m.sender)}*
 ╭━━━━「 *Ʋser Ɩnfσrmαtισn* 」
 ┝🌸• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
 ┝🌸• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
-┝🌸• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┝🌸• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+┝🌸• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Pengguna Premium✔️' : 'Pengguna Gratis🗿')}
+┝🌸• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Ya✅': 'Tidak❌'}
 ╰═┅═━═┅═━═┅═━––––––๑
 
 
@@ -306,7 +306,7 @@ const listMessage = {
   text: tek,
   footer: '📮Rull BOT V5\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕',
   mentions: await conn.parseMention(tek),
-  title: `${htki} *LIST MENU* ${htka}`,
+  title: `${htki} Klik Disini ⎙ ${htka}`,
   buttonText: `LIST FITUR`,
   sections
 }
